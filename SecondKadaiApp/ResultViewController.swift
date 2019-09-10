@@ -11,6 +11,8 @@ import UIKit
 class ResultViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    @IBAction func back_button(_ sender: UIButton) {
+    }
     var text1 :String?
     override func viewDidLoad() {
         super.viewDidLoad()
